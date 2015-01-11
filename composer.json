@@ -13,7 +13,7 @@
 	],
 	"support":{
 		"issues":"https://github.com/wangaz/contao-accessible-html5-video-player/issues",
-		"source":"https://github.com/wangaz/contao-accessible-html5-video-player",
+		"source":"https://github.com/wangaz/contao-accessible-html5-video-player"
 	},
 	"require":{
 		"php":">=5.3",
@@ -26,7 +26,7 @@
 		"contao": {
 			"symlinks":{
 				"src/assets/accessible-html5-video-player":"assets/accessible-html5-video-player",
-				"src/system/modules/accessible-html5-video-player":"system/modules/accessible-html5-video-player",
+				"src/system/modules/accessible-html5-video-player":"system/modules/accessible-html5-video-player"
 			}
 		}
 	}
