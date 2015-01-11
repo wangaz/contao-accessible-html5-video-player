@@ -6,7 +6,7 @@
  * @copyright wangaz. GbR 2015
  * @author Wangaz. GbR <hallo@wangaz.com>
  * @link https://wangaz.com
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @license http://creativecommons.org/licenses/by-sa/4.0/ CC BY-SA 4.0
  */
  
 /*
