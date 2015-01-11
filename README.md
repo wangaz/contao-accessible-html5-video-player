@@ -16,6 +16,7 @@ The player is a lightweight HTML5 video player which includes support for captio
 - The width adjusts to the width of the video element.
 - No dependencies. Written in "vanilla" JavaScript.
 - When JavaScript is unavailable, the browser's native controls are used.
+
 Source and further information: https://github.com/paypal/accessible-html5-video-player
 
 ## Demo
