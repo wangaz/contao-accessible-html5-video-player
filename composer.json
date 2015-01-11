@@ -1,0 +1,33 @@
+{
+	"name":"wangaz/contao-accessible-html5-video-player",
+	"description":"Accessible HTML5 Video Player for Contao Open Source CMS",
+	"keywords":["contao", "video", "player", "accessible", "HTML5"],
+	"type":"contao-module",
+	"homepage":"http://www.wangaz.com",
+	"license":"CC-BY-SA 4.0",
+	"authors":[
+		{
+			"name":"Wangaz.",
+			"homepage":"http://www.wangaz.com"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/wangaz/contao-accessible-html5-video-player/issues",
+		"source":"https://github.com/wangaz/contao-accessible-html5-video-player",
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":"~3.2",	
+	},
+	"autoload": {
+		"classmap": ["src"]
+	},
+	"extra":{
+		"contao": {
+			"symlinks":{
+				"src/assets/accessible-html5-video-player":"assets/accessible-html5-video-player",
+				"src/system/modules/accessible-html5-video-player":"system/modules/accessible-html5-video-player",
+			}
+		}
+	}
+}
