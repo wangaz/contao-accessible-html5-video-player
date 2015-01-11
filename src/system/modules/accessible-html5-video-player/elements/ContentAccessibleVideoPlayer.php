@@ -5,7 +5,8 @@
  *
  * @copyright wangaz. GbR 2015
  * @author Wangaz. GbR <hallo@wangaz.com>
- * @license !TODO
+ * @link https://wangaz.com
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
 
  
@@ -17,7 +18,8 @@ namespace Contao;
  *
  * @copyright wangaz. GbR 2015
  * @author Wangaz. GbR <hallo@wangaz.com>
- * @license !TODO
+ * @link https://wangaz.com
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
 class ContentAccessibleVideoPlayer extends \ContentElement 
 {
