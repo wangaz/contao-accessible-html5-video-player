@@ -1,0 +1,33 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<!-- indexer::stop -->
+<div class="px-video-container" id="avp<?= $this->id ?>">
+    <div class="px-video-img-captions-container">
+        <div class="px-video-captions hide" aria-hidden="true"></div>
+        <video<?= $this->size ?> poster="<?= $this->preview ?>" controls>
+            <?php foreach ($this->files as $file): ?>
+				<source type="<?= $file->mime ?>" src="<?= $file->path ?>" title="<?= $file->title ?>" />
+			<?php endforeach; ?>
+			<?php if ($this->caption): ?>
+            	<track kind="captions" label="<?= $this->label ?>" src="<?= $this->caption ?>" srclang="<?= $this->lang ?>" default />
+            <?php endif; ?>
+            <div>
+                <a href="<?= $this->files[0]->path ?>">
+                    <img src="<?= $this->preview ?>"<?php echo $this->size ?> alt="<?= $this->download ?>" />
+                </a>
+            </div>
+        </video>
+    </div>
+    <div class="px-video-controls"></div>
+</div>
+<script type="text/javascript">
+	/* <![CDATA[ */
+		// initialize
+		new InitPxVideo({"videoId": "avp<?= $this->id ?>"});
+	/* ]]> */
+</script>
+<!-- indexer::continue -->
+
+<?php $this->endblock(); ?>
