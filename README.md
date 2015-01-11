@@ -11,8 +11,6 @@ The player is a lightweight HTML5 video player which includes support for captio
 - Supports captions; simply denote a VTT caption file using the standard HTML5 video syntax.
 - Uses native HTML5 form controls for volume (range input) and progress indication (progress element).
 - Accessible to keyboard-only users and screen reader users.
-- Option provided to set captions on or off by default (upon loading).
-- Option provided to set number of seconds by which to rewind and forward.
 - The width adjusts to the width of the video element.
 - No dependencies. Written in "vanilla" JavaScript.
 - When JavaScript is unavailable, the browser's native controls are used.
