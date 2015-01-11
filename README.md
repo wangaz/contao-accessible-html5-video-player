@@ -23,4 +23,4 @@ On the player's GitHub page: http://paypal.github.io/accessible-html5-video-play
 
 ##License
 
-This work is licensed under a [GNU LGPL](http://www.gnu.org/licenses/lgpl-3.0.html).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
