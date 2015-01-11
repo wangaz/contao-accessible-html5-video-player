@@ -7,7 +7,7 @@ __Thanks a lot to [Nina Gerling (ena Webstudio)](http://www.ena-webstudio.com), 
 ## Description
 
 The player is a lightweight HTML5 video player which includes support for captions and screen reader accessibility:
-- Provides an HTML5 video player with custom controls.
+- HTML5 video player with custom controls.
 - Supports captions; simply denote a VTT caption file using the standard HTML5 video syntax.
 - Uses native HTML5 form controls for volume (range input) and progress indication (progress element).
 - Accessible to keyboard-only users and screen reader users.
