@@ -7,13 +7,14 @@
 	"license":"CC-BY-SA 4.0",
 	"authors":[
 		{
-			"name":"Wangaz.",
-			"homepage":"http://www.wangaz.com"
+			"name":"wangaz.",
+			"homepage":"https://wangaz.com"
 		}
 	],
 	"support":{
 		"issues":"https://github.com/wangaz/contao-accessible-html5-video-player/issues",
-		"source":"https://github.com/wangaz/contao-accessible-html5-video-player"
+		"source":"https://github.com/wangaz/contao-accessible-html5-video-player",
+		"forum":"https://community.contao.org/de/showthread.php?54944"
 	},
 	"require":{
 		"php":">=5.3",
