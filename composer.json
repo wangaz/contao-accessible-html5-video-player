@@ -3,7 +3,7 @@
 	"description":"Accessible HTML5 Video Player for Contao Open Source CMS",
 	"keywords":["contao", "video", "player", "accessible", "HTML5"],
 	"type":"contao-module",
-	"homepage":"http://www.wangaz.com",
+	"homepage":"https://wangaz.com",
 	"license":"CC-BY-SA 4.0",
 	"authors":[
 		{
